@@ -8,7 +8,7 @@ body{
 .container{
     display: flex;
     color: black;
-   height: 700px;
+   height:900px;
 }
 .card-front,.card-back{
     width: 400px;
