@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+body{
+    font-size: 18px;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+.container{
+    display: flex;
+    color: black;
+   height: 700px;
+}
+.card-front,.card-back{
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-front{
+    background-image: url("../images/bg-card-front.png");
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+.card-back{
+    background-image: url("../images/bg-card-back.png");
+
+}
+.box-1{
+    background-color: hsl(278, 68%, 11%);
+    width: 50%;
+    color:white;
+
+}
+.name{
+display: flex;
+flex-direction: row;
+gap: 200px;
+}
+.card-number{
+    font-size: xx-large;
+}
