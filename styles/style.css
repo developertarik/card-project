@@ -41,11 +41,11 @@ body{
 
 }
 .box-2{
-    display: flex;
+       display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 25%;
-    padding:10%;
+    margin-left: 20%;
+    padding: 6%;
 }
 .name{
 display: flex;
