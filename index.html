@@ -1,69 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive card details form</title>
+    <!--add css-->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-1">
+        <div class="card-front">
+          <img src="./images/card-logo.svg" alt="logo" />
+          <p class="card-number">0000 0000 0000 0000</p>
+          <p class="name">Jane Appleseed <span>00/00</span></p>
+        </div>
+        <div class="card-back">
+          <p>000</p>
+        </div>
+      </div>
+      <div class="box-2">
+        <div class="form">
+          <form action="">
+            <legend>Cardholder Name</legend>
+            <input
+              type="text"
+              placeholder="e.g. Jane Appleseed"
+              name=""
+              id=""
+              class="input-t"
+            />
+
+            <legend>Card Number</legend>
+            <input
+              type="number"
+              name=""
+              id=""
+              placeholder="e.g. 1234 5678 9123 0000"
+              class="input-t"
+            />
+            <div class="n">
+              <legend>Exp. Date (MM/YY)</legend>
+              <input max="12" type="number" placeholder="MM" name="" id="" />
+              <input type="number" placeholder="YY"  max="2050">
+              <legend>CVC</legend>
   
-  <title>Frontend Mentor | Interactive card details form</title>
-  <!--add css-->
-  <link rel="stylesheet" href="./styles/style.css">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-<div class="container">
-  <div class="box-1">
-    <div class="card-front">
-      <img src="./images/card-logo.svg" alt="logo">
-      <p class="card-number"> 0000 0000 0000 0000 </p> 
-     <p class="name">Jane Appleseed <span>00/00</span>  </p> 
-     
+              <input type="number" name="" placeholder="e.g 123" id="" />
+            </div>
+           
+<button>Confirm</button>
+            
+          </form>
+        </div>
+      </div>
     </div>
-    <div class="card-back">
-      <p>000</p>
-      
 
+    <!-- Completed state start -->
+
+    Thank you! We've added your card details Continue
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
     </div>
-  </div>
- <div class="box-2">
-  <div class="form">
-
-  Cardholder Name
-  e.g. Jane Appleseed
-
-  Card Number
-  e.g. 1234 5678 9123 0000
-
-  Exp. Date (MM/YY)
-  MM
-  YY
-
-  CVC
-  e.g. 123
-
-  Confirm
- </div>
-
-  </div>
-</div>
-
-
-  
-
-  <!-- Completed state start -->
-
-  Thank you!
-  We've added your card details
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  </body>
 </html>
